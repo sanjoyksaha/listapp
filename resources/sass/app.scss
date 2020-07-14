@@ -1,0 +1,32 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+//admin-lte
+@import '~admin-lte/dist/css/adminlte.css';
+
+//fontawesome-free
+@import '~admin-lte/plugins/fontawesome-free/css/all.css';
+
+@import "~toastr";
+
+// nav-link router-link-exact-active router-link-active
+.nav-link p{
+    color:#000 !important;
+}
+.router-link-active{
+    background-color: #2C3E50;
+}
+
+.router-link-active p{
+    color: #fff !important;
+}
+
+.router-link-active p:hover{
+    color: #000 !important;
+}
